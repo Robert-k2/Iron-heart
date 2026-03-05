@@ -1,0 +1,21 @@
+const fs = require('fs');
+
+//reading files
+fs.readFile('./prac.js/Sets,(err, data)=> {
+if(err){
+    console.log(err);
+}
+console.log(data.tostring());
+});
+
+console.log('last line'); 
+
+
+
+
+//writing files
+
+//directories
+
+//deleting files
+
